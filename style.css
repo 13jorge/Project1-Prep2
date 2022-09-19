@@ -70,6 +70,14 @@
     line-height: 60px;
   }
   
+  .galleryGrid1{
+    float: left;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-content: center;
+    margin: 2rem 0 5rem 0;
+  }  
+  
   .galleryGrid{
     float: left;
     display: grid;
@@ -77,14 +85,6 @@
     justify-content: center;
     margin-bottom: 5rem;
   }  
-  
-  .galleryGrid1{
-    float: left;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    justify-content: center;
-    margin: 2rem 0 5rem 0;
-  }
    
   img{
     width: 200px;
