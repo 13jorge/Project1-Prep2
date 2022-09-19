@@ -69,10 +69,28 @@
     text-transform: uppercase;
     line-height: 60px;
   }
-
-  .imgGrid{
-    padding-top: 100px;
-    margin: 0;
+  
+  .galleryGrid{
+    float: left;
     display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     justify-content: center;
+    margin-bottom: 5rem;
+  }  
+  
+  .galleryGrid1{
+    float: left;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-content: center;
+    margin: 2rem 0 5rem 0;
+  }
+   
+  img{
+    width: 200px;
+    height: 200px;
+  }
+
+  p{
+    margin: 0 20px 0 20px;
   }
